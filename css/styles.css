@@ -1,0 +1,91 @@
+
+.perfil-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    width: 30%;
+    height: 30%;
+    border-radius: 3%;
+   
+    
+}
+
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 25%;
+    width: 25%;
+}
+body{
+    background-color:hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px; 
+
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700px;
+}
+h2{
+     font-family: "Inter", sans-serif;
+     font-weight: 400;
+     font-size: 17px;
+}
+p{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+.ubicacion{
+    color: hsl(75, 94%, 57%);
+}
+
+.descripcion{
+    color: hsl(0, 0%, 100%);
+    padding: 0px;
+    
+}
+.informacion {
+    text-align: center;
+    
+}
+
+
+.redes_links {
+  padding: 0;
+  width: 100%; 
+}
+
+.redes_links li {
+  list-style: none;
+  margin: 0.5rem 0;
+  width: 100%; 
+  padding: 5px;
+}
+
+.redes_links a {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 12px 50px;
+  border-radius: 1rem;
+  text-decoration: none;
+  display: block;        
+  width: 270px;            
+  text-align: center;     
+  box-sizing: border-box; 
+  
+}
+a {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+@media (min-width: ) {
+    
+}
